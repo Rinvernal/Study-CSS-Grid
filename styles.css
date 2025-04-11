@@ -4,9 +4,41 @@
 
 .container {
   display: grid;
-  grid-template-columns: 200px 100px;
-  grid-template-rows: 200px 100px;
-  gap: 20px;
-  grid-auto-rows: 70px;
-  grid-auto-flow: column;
+  border: 5px solid #000;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  gap: 5px;
+  text-align: center;
+  color: #fff;
+  font-size: medium;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.Header{
+  grid-column: 1 / 11;
+  grid-row: 1 / 3;
+  background-color: #212b87;
+}
+.Content{
+  grid-column: 1 / 7;
+  grid-row: 3 / 6;
+  background-color: #4f569e;
+}
+.item{
+  grid-column: 7 / 11;
+  background-color: #6c78ca;
+}
+.About{
+  grid-column: 4 / 11;
+  grid-row: 6 / 9;
+  background-color: #8074c3;
+}
+.Card{
+  grid-column: 1 / 4;
+  grid-row: 6 / 9;
+  background-color: #6ca1dd;
+}
+.Footer{
+  grid-column: 1 / 11;
+  grid-row: 9 / 11;
+  background-color: #0c1a94;
 }
