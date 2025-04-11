@@ -4,5 +4,9 @@
 
 .container {
   display: grid;
-  display: inline-grid;
+  grid-template-columns: 200px 100px;
+  grid-template-rows: 200px 100px;
+  gap: 20px;
+  grid-auto-rows: 70px;
+  grid-auto-flow: column;
 }

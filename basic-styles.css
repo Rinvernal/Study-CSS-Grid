@@ -18,7 +18,7 @@ body {
   margin: 50px;
   letter-spacing: -1px;
   font-family: "Roboto", Arial, sans-serif;
-  background-color: #ffeead;
+  background-color: #fce1ff;
 }
 
 h1,
@@ -38,17 +38,16 @@ h6 {
   border: 5px solid rgba(0, 0, 0, 0.03);
   border-radius: 3px;
   font-size: 35px;
-  background-color: #ff6f69;
-  color: #ffeead;
+  background-color: #5c9dff;
+  color: #fce1ff;
 }
 
 .item p {
   margin: 0 0 5px 0;
 }
 
-.container {
-  width: 400px;
-  height: 400px;
+/* .container {
+  width: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,4 +55,4 @@ h6 {
   background-color: #ff6f69;
   border: 4px solid #000;
   margin-bottom: 10px;
-}
+} */
